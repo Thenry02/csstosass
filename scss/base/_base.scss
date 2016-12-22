@@ -1,0 +1,37 @@
+
+* { 
+  box-sizing: border-box;
+}
+
+
+
+.main-nav {
+  width: 100%;
+  background: $Negro ;
+  min-height: 30px;
+  
+  position: fixed;
+  text-align: center;
+  box-shadow: 0 0 1em $blanco ;
+}
+
+
+
+
+p{
+  font-weight: 700;
+}
+
+
+main {
+  background-color: $Azul;
+}
+
+
+
+.clearfix {
+  clear: both;
+}
+
+
+

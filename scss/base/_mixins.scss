@@ -1,0 +1,143 @@
+@mixin mediumdisplay {
+	.flex {
+      display: flex; 
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap; 
+}
+
+header {
+    min-height: 470px;
+}
+
+
+
+.nav {
+
+    padding: 0 30px;
+}
+
+.nav li {
+		display: inline;
+	    padding: 5px 10px 10px 10px;
+}
+div {
+  margin: 0 auto;
+}
+
+main p {
+    line-height: 1.6em;
+}
+
+footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.card {
+  color:  rgba(248,80,50,1);
+  max-width: 200px;
+  max-height: 600px;
+  border: 6px solid $Negro;
+  transition: all .5s;
+  box-shadow: 0 0 1em $Negro;
+}
+.card:hover {
+  border-color: $blanco ;
+}
+
+.content {
+  margin-top: 50px;
+  width:35%;
+  padding-top: 20px;
+}
+
+header .profile-image {
+  margin:20px 0 auto;
+  transition: all .5s;
+  box-shadow: 0 0 1em $Negro; 
+}
+
+p.description {
+  width: 80%;
+  margin: 0 auto;
+  font-size: $fontm;
+}
+}
+
+@mixin largedisplay {
+	
+	.flex {
+      display: flex; 
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+ 
+  }
+
+header {
+    min-height: 470px;
+  }
+
+.nav {
+    padding: 0 30px;
+  }
+ 
+ li {
+ display: inline;
+ }
+
+div {
+  margin: 0 auto;
+ }
+
+p {
+    line-height: 1.6em;
+    font-size: 1.5em;
+    margin: 0 50px;
+  }
+
+footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.card {
+  
+  max-width: 300px;
+  max-height: 300px;
+  border: 6px solid $Negro;
+  transition: all .5s;
+  box-shadow: 0 0 1em $Negro;
+}
+.card:hover {
+  border-color: $blanco;
+}
+
+.content {
+  margin-top: 50px;
+  width:30%;
+}
+
+header .profile-image {
+  margin:20px 0 auto;
+  transition: all .5s;
+  box-shadow: 0 0 1em $Negro; 
+}
+
+.description {
+  width: 30%;
+  margin: 0 auto;
+}
+
+}
+
+@mixin navigation {
+	display: inline-block;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}

@@ -1,0 +1,35 @@
+//Nested Selectors  
+
+.nav {
+  @include navigation ;
+
+  li {
+  padding: 2px;
+}
+
+.nav a {
+  transition: all .5s;
+}
+
+}
+
+.nav a:hover {
+  color:  $heat ;
+}
+/* Link Styles */
+
+a { 
+text-decoration: none;
+@extend %colored;
+}
+
+
+@media screen and (min-width: 768px) {
+@include mediumdisplay ;
+
+  }
+  
+@media screen and (min-width: 1024px) {
+@include largedisplay ;
+
+}

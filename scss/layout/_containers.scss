@@ -1,0 +1,46 @@
+
+body {
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background: $Azul ;
+  
+}
+
+
+p {
+  @extend %colored;
+  @extend %centered;
+
+}
+
+.card {
+  display: flex;
+  margin: $mg   ;
+  color:  $Negro ;
+  max-width: 300px;
+  max-height: 400px;
+  border: 6px solid $Negro;
+  transition: all .5s;
+  margin: 0 auto 20px;
+  box-shadow: 0 0 1em $Negro;
+}
+.card:hover {
+  @extend %colored;
+}
+
+ .content {
+ 
+  @extend %colored;
+  margin: 0 auto 50px;
+  padding-top: 30px;
+}
+
+
+h2 {
+  @extend %colored;
+}
+
+
